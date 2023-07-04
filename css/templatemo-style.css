@@ -379,6 +379,7 @@ http://www.templatemo.com/tm-516-known
   }
   
   .caption h3 a { color: #FFF; }
+  .caption h2 a { color: #FFF; }
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
@@ -1625,7 +1626,7 @@ http://www.templatemo.com/tm-516-known
   -----------------------------------------*/
 
   footer {
-    background: #252020;
+    background: #2a2a2a;
     padding: 120px 0;
   }
 
