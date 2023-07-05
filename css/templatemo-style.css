@@ -1626,25 +1626,25 @@ http://www.templatemo.com/tm-516-known
   -----------------------------------------*/
 
   footer {
-    background: #2a2a2a;
-    padding: 120px 0;
+    background: #c9c8c8;
+    padding: 100px 0;
   }
 
   footer .section-title {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 
   footer h2 {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   footer a,
   footer p {
-    color: #909090;
+    color: #1b1a1a;
   }
 
   footer strong {
-    color: #d9d9d9;
+    color: #0d0d0d;
   }
 
   footer address p {
@@ -1676,7 +1676,7 @@ http://www.templatemo.com/tm-516-known
   .footer_menu li {
     display: inline-block;
     list-style: none;
-    margin: 5px 10px 5px 0;
+    margin: 5px 5px 5px 0;
   }
 
   .newsletter-form .form-control {
@@ -1701,7 +1701,7 @@ http://www.templatemo.com/tm-516-known
   }
 
   .newsletter-form input[type="submit"]:hover {
-    background: #29ca8e;
+    background: #1a1a1a;
     border-color: transparent;
   }
 
@@ -1732,7 +1732,7 @@ http://www.templatemo.com/tm-516-known
 
   .social-icon li a {
     border-radius: 100px;
-    color: #29ca8e;
+    color: #191919;
     font-size: 15px;
     width: 35px;
     height: 35px;
@@ -1745,7 +1745,7 @@ http://www.templatemo.com/tm-516-known
   }
 
   .social-icon li a:hover {
-    background: #29ca8e;
+    background: #474747;
     color: #ffffff;
   }
 

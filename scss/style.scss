@@ -979,7 +979,7 @@ a {
 	}
 }
 .probootstrap-footer {
-	padding: 7em 0;
+	padding: 5em 0;
 	padding-bottom: 0;
 	background: $brand-black;
 	color: rgba(255,255,255,.9);
@@ -995,7 +995,7 @@ a {
 	}
 	.probootstrap-copyright {
 		padding: 3em 0;
-		margin-top: 20px;
+		margin-top: 10px;
 		background: lighten($brand-black, 10%);
 		@media screen and (max-width: $screen-sm) {
 			margin-top: 0px;
@@ -1184,17 +1184,17 @@ a {
 			}
 			&.twitter {
 				a {
-					color: #1da1f2;
+					color: #085382;
 				}
 			}
 			&.facebook {
 				a {
-					color: #3b5998;
+					color: #77a0f9;
 				}
 			}
 			&.instagram {
 				a {
-					color: #e1306c;
+					color: #621c33;
 				}
 			}
 			&.google-plus {
