@@ -30,7 +30,7 @@
       dots:false,
       autoplayHoverPause: false,
       autoplay: true,
-      smartSpeed: 50,
+      smartSpeed: 1000,
     })
 
     $('.owl-courses').owlCarousel({
@@ -38,7 +38,7 @@
       loop: true,
       autoplayHoverPause: false,
       autoplay: true,
-      smartSpeed: 50,
+      smartSpeed: 1000,
       dots: false,
       nav:true,
       navText: [
@@ -61,7 +61,7 @@
       loop: true,
       autoplayHoverPause: false,
       autoplay: true,
-      smartSpeed: 1000,
+      smartSpeed: 100,
       responsiveClass: true,
       responsive: {
         0: {
