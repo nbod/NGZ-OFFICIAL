@@ -1677,6 +1677,134 @@ background-position: center;
   transition: 0.5s;
 }
 
+.probootstrap-section {
+  padding: 7em 0;
+  position: relative;
+}
+
+.probootstrap-section.probootstrap-section-sm {
+  padding: 3em 0;
+}
+
+.probootstrap-section.probootstrap-border-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.probootstrap-section.probootstrap-border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.probootstrap-section > .container.probootstrap-border-top {
+  padding-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.probootstrap-section.probootstrap-section-colored {
+  background: #0a0a0a;
+}
+
+.probootstrap-section.probootstrap-section-colored .section-heading h2 {
+  color: white;
+}
+
+.probootstrap-section.probootstrap-section-colored .section-heading p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.probootstrap-section.probootstrap-bg-white {
+  background: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .probootstrap-section {
+    padding: 3em 0;
+  }
+}
+
+.probootstrap-section.probootstrap-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.probootstrap-section.probootstrap-bg:before {
+  position: absolute;
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.section-heading {
+  margin-bottom: 70px;
+}
+
+.section-heading h1 {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading h1 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.section-heading h2 {
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading p {
+    font-size: 16px;
+  }
+}
+
+.lead {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.probootstrap-cta {
+  padding: 3em 0;
+  background: #6a41ed;
+  color: #ffffff;
+}
+
+.probootstrap-cta h2 {
+  margin: 12px 0 0 0;
+  padding: 0;
+  color: #ffffff;
+  float: left;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .probootstrap-cta h2 {
+    float: none;
+    width: 100%;
+    margin: 0px 0 0 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .probootstrap-cta h2 {
+    text-align: center;
+  }
+}
 
 
 /*---------------------------------------
