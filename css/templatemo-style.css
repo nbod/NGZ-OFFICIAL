@@ -2084,6 +2084,37 @@ footer .social-icon {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (max-width: 600px) {
+  #mobile-menu-btn {
+    display: block;
+  }
+  nav p {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and  (min-width: 60rem) {
+  /*Desktop view*/
+  .dropdown{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0;
+      min-height: 70px;
+  }
+
 
 @media only screen and (max-width: 580px) {
   h2 {
