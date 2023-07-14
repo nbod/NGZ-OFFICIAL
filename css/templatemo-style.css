@@ -252,6 +252,11 @@ section {
      PRE LOADER              
 -----------------------------------------*/
 
+
+
+
+
+
 .preloader {
   position: fixed;
   top: 0;
@@ -2111,4 +2116,6 @@ footer .social-icon {
     width: inherit;
     height: inherit;
   }
+
+  
 }

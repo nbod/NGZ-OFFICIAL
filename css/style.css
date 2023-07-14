@@ -13,6 +13,9 @@
     font-weight: 700 !important;
 }
 
+
+
+
 .back-to-top {
     position: fixed;
     display: none;
@@ -20,18 +23,6 @@
     bottom: 45px;
     z-index: 99;
 }
-
-.classy-navbar .nav-brand {
-    font-size: 26px;
-    font-weight: 500;
-    color: #232323;
-    display: inline-block;
-    margin-right: 30px; }
-    .classy-navbar .nav-brand:focus, .classy-navbar .nav-brand:hover {
-      font-size: 26px;
-      font-weight: 500; }
-
-
 
 /*** Spinner ***/
 #spinner {
@@ -557,4 +548,7 @@
       width: 100%;
       display: block;
     }
+
+
+
   }
