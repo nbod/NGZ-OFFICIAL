@@ -117,6 +117,10 @@ a:hover, a:active, a:focus {
   height: 100%;
 }
 
+
+.dropdown-menu{
+  position: static;
+}
 .entry-form {
   background: #252020;
   border-radius: 100%;

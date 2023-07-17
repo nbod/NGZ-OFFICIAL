@@ -336,6 +336,7 @@ a {
 						border-top: none;
 						background: $brand-white;
 						color: $brand-dropdown;
+						position: static;
 					}
 				}
 				&.open, &:hover, &:focus, &:active {
@@ -369,6 +370,7 @@ a {
 	.navbar-right {
     .dropdown-menu {
       right: auto;
+	  position: static;
     }  
   }
 	.dropdown-menu {
@@ -490,6 +492,7 @@ a {
 					margin-left: -10px;
 					@media screen and (max-width: $screen-sm) {
 						display: none;
+						position: static;
 					}
 				}
 			}
@@ -601,11 +604,13 @@ a {
     	left: auto;
 	    right: 100%;
 	    margin-top: -1px;
+		position: static;
     }
     @media screen and (max-width: $screen-xs) {
     	&:hover {
 				> .dropdown-menu {
 					display: block;
+					position: static;
 				}
     	}	
     }

@@ -172,7 +172,8 @@
           flex-direction: row;
 
           .dropdown-menu {
-            position: absolute;
+          
+            position: static;
           }
 
           .nav-link {

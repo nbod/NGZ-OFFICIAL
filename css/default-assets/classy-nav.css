@@ -122,14 +122,14 @@
 .classynav ul li ul li.has-down > a::after {
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  position: absolute;
+  position: static;
   top: 2px;
   right: 10px;
   z-index: 3; }
 
 /* Dropdown Toggle */
 .dd-trigger {
-  position: absolute;
+  position: static;
   width: 100%;
   height: 100%;
   top: 0;
@@ -180,7 +180,7 @@
     display: inline-block;
     cursor: pointer; }
     .classy-navbar-toggler .navbarToggler span {
-      position: relative;
+      position: static;
       background-color: #707070;
       border-radius: 3px;
       display: block;
@@ -203,7 +203,7 @@
       top: -8px; }
 
 .classynav ul li .megamenu {
-  position: absolute;
+  position: static;
   width: 100%;
   left: 0;
   top: 100%;
@@ -279,7 +279,7 @@
   align-items: center; }
 .breakpoint-off .classynav ul li .dropdown {
   width: 180px;
-  position: absolute;
+  position: static;
   background-color: #ffffff;
   top: 120%;
   left: 0;
@@ -327,7 +327,7 @@
 .breakpoint-off .classynav ul li .megamenu {
   opacity: 0;
   visibility: hidden;
-  position: absolute;
+  position: static;
   width: 100%;
   left: 0;
   top: 120%;
@@ -348,7 +348,7 @@
   display: block; }
 .breakpoint-on .classy-navbar .classy-menu {
   background-color: #ffffff;
-  position: fixed;
+  position: static;
   top: 0;
   left: -340px;
   z-index: 9999;
@@ -365,7 +365,7 @@
     left: 0; }
 .breakpoint-on .classynav ul li {
   display: block;
-  position: relative;
+  position: static;
   clear: both;
   z-index: 10; }
   .breakpoint-on .classynav ul li a {
@@ -374,17 +374,17 @@
     line-height: 45px; }
   .breakpoint-on .classynav ul li .dropdown {
     width: 100%;
-    position: relative;
+    position: static;
     top: 0;
     left: 0;
     box-shadow: none; }
     .breakpoint-on .classynav ul li .dropdown li .dropdown {
       width: 100%;
-      position: relative;
+      position: static;
       top: 0;
       left: 0; }
   .breakpoint-on .classynav ul li.megamenu-item {
-    position: relative;
+    position: static;
     z-index: 10; }
 .breakpoint-on .dd-trigger {
   height: 31px;
@@ -420,7 +420,7 @@
     max-width: 100%;
     width: 100%; }
     .breakpoint-on .classynav ul li .megamenu {
-      position: relative;
+      position: static;
       width: 100%;
       left: 0;
       top: 0;

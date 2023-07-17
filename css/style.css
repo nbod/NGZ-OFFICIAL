@@ -126,6 +126,12 @@
     }
 }
 
+.dropdown-menu{
+    position: static;
+}
+
+dro
+
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
     height: 75px;
