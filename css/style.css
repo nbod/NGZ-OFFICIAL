@@ -13,9 +13,22 @@
     font-weight: 700 !important;
 }
 
+@media (max-width: 767px) { 
+    .dropdown.custom:hover .dropdown-menu {
+      visibility: visible;
+      display:block;
+      border-radius:0;
+    
+    }
+    }
+    
+.dropdown{
+    z-index:0;
+}
 
-
-
+.dropdown-menu{
+    z-index:0;
+}
 .back-to-top {
     position: fixed;
     display: none;
