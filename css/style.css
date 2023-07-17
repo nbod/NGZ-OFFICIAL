@@ -152,15 +152,7 @@
     }
 }
 
-@media screen and  (min-width: 60rem) {
-    /*Desktop view*/
-    .dropdown {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 0;
-        min-height: 70px;
-    }
+
 
 
 /*** Header carousel ***/
@@ -546,13 +538,7 @@
     text-align: center;
   }
   
-  .nav-tabs.probootstrap-center > li, .nav-pills.probootstrap-center > li {
-    float: none;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-  }
-  
+
   @media screen and (max-width: 480px) {
     .nav-tabs.probootstrap-center > li, .nav-pills.probootstrap-center > li {
       width: 100%;
