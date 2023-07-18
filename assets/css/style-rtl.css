@@ -10,7 +10,7 @@ body {
 }
 
 body #image-background {
-  position: fixed;
+  position: absolute;
   top: 50%;
   right: 50%;
   min-width: 100%;
@@ -23,7 +23,7 @@ body #image-background {
 }
 
 body #video-background {
-  position: fixed;
+  position: absolute;
   top: 50%;
   right: 50%;
   min-width: 100%;
@@ -195,7 +195,7 @@ input.notify-me:hover {
 }
 
 .content-wrapper {
-  position: fixed;
+  position: relative;
   width: 100%;
   height: 100vh;
 }

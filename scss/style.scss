@@ -336,7 +336,7 @@ a {
 						border-top: none;
 						background: $brand-white;
 						color: $brand-dropdown;
-						position: static;
+						position: absolute;
 					}
 				}
 				&.open, &:hover, &:focus, &:active {
@@ -492,7 +492,7 @@ a {
 					margin-left: -10px;
 					@media screen and (max-width: $screen-sm) {
 						display: none;
-						position: static;
+						position: absolute;
 					}
 				}
 			}
@@ -610,7 +610,7 @@ a {
     	&:hover {
 				> .dropdown-menu {
 					display: block;
-					position: static;
+					position: relative;
 				}
     	}	
     }
