@@ -793,7 +793,7 @@ background-position: center;
 
 .site-footer {
   padding: 4em 0; }
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     .site-footer {
       padding: 8em 0; } }
   .site-footer .border-top {
